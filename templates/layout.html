@@ -16,7 +16,9 @@
 
 <body>
     <div class="container-fluid">
-        <header></header>
+        <header>
+            {% include 'partials/shared/_nav.html' %}
+        </header>
         <main>
             {% block content %}
             {% endblock %}

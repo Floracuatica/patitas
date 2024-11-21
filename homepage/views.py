@@ -28,3 +28,5 @@ def v_index(request):
     }
     return render(request, "homepage/index.html", 
                   context)
+def v_feedback_gracias(request):
+    return render(request, "homepage/feedback_gracias.html")

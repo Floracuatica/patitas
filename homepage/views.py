@@ -30,3 +30,15 @@ def v_index(request):
                   context)
 def v_feedback_gracias(request):
     return render(request, "homepage/feedback_gracias.html")
+
+from django.shortcuts import redirect
+def v_feedback_create(request):
+    if request.method == "POST":
+        data = request.POST.copy()
+        print("++", data)
+        ##Guardar base de datos
+        return redirect("/feedback/gracias")
+    
+    return redirect("/")
+
+

@@ -20,7 +20,7 @@ def v_index(request):
                 "photo": "https://images-assets.nasa.gov/image/iss072e188539/iss072e188539~medium.jpg"
             }, 
             {   "first_name": "Holden",
-                "last_name": "Dix",
+                "last_name": "Hands",
                 "photo": "https://images-assets.nasa.gov/image/iss072e189176/iss072e189176~medium.jpg"
             }, 
             {   "first_name": "Pablo",
